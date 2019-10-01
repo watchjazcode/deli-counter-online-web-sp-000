@@ -9,7 +9,7 @@ end
 
 def take_a_number(queue, name)
   queue << name
-  
+  puts "Hello, #{name}! You are number #{queue.length}."
 end
 
 def now_serving(katz_deli)
