@@ -15,7 +15,7 @@ def line(queue)
     queue.each_with_index do |name, index|
       current_line += "#{index + 1}. #{name} "
     end
-    puts "The line is currently: #{current_line}."
+    puts "The line is currently: #{current_line}"
   end
 end
 
