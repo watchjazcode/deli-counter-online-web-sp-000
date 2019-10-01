@@ -20,5 +20,8 @@ def line(queue)
 end
 
 def now_serving(katz_deli)
+  if queue. length == 0
     puts "There is nobody waiting to be served!"
+  else
+    
 end
