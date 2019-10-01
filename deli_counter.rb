@@ -9,8 +9,9 @@ end
 
 def line(queue)
   if queue.length == 0
-    puts "The line is currently: "
     puts "The line is currently empty."
+  else
+    puts
 end
 
 def now_serving(katz_deli)
