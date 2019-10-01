@@ -11,6 +11,9 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
+    queue.each_with_index do |name, index|
+      puts "#{name} and #{index}"
+    end
     puts "The line is currently: #{queue.length}."
   end
 end
