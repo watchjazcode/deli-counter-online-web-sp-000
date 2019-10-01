@@ -11,7 +11,8 @@ def line(queue)
   if queue.length == 0
     puts "The line is currently empty."
   else
-    puts
+    puts "The line is currently: #{queue.length}."
+  end
 end
 
 def now_serving(katz_deli)
