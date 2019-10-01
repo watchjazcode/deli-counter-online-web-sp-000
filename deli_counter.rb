@@ -27,3 +27,4 @@ def now_serving(queue)
     queue.shift
   end
 end
+
