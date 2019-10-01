@@ -25,6 +25,8 @@ def now_serving(katz_deli)
   else
     current_line = ""
     queue.each_with_index do |name, index|
+      current_line += "#{name}"
+    end
     puts "Currently serving #{name}."
   end
 end
