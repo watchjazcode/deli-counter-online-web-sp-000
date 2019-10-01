@@ -23,6 +23,8 @@ def now_serving(katz_deli)
   if queue.length == 0
     puts "There is nobody waiting to be served!"
   else
+    current_line = ""
+    queue.each_with_index do |name, index|
     puts "Currently serving #{name}."
   end
 end
