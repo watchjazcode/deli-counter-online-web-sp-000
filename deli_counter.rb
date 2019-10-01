@@ -12,7 +12,7 @@ def line(queue)
     puts "The line is currently empty."
   else
     queue.each_with_index do |name, index|
-      puts "The line is currently: #{name} and "
+      puts "The line is currently: #{index + 1}. #{name}"
     end
     puts "The line is currently: #{queue.length}."
   end
